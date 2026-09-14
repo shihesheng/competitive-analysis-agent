@@ -1,0 +1,256 @@
+{
+  "category": "gaming_mouse",
+  "schema_version": "1.0",
+  "updated_at": "2026-06-22",
+  "description": "本地评价情报库（database 路线）：人工整理的博主测评 / 用户评价 / 社区口碑结构化结论。命中本地库的产品（如 GPX / GPX2）直接读取，不走实时爬虫；未命中的产品仍走 ReviewIntel 爬虫路线。",
+  "records": [
+    {
+      "match": {
+        "product_id": "logitech-gpx-superlight-2",
+        "aliases": [
+          "gpx2",
+          "gpx 2",
+          "gpx superlight 2",
+          "g pro x superlight 2",
+          "pro x superlight 2",
+          "superlight 2",
+          "logitech g pro x superlight 2"
+        ]
+      },
+      "brand": "Logitech",
+      "model": "G Pro X Superlight 2",
+      "status": "collected",
+      "confidence_level": "high",
+      "note": "本地评价数据库命中：博主测评 + 用户评价 + 社区口碑已结构化入库（database 路线）。",
+      "sources": [
+        { "title": "Logitech G Pro X Superlight 2 Review", "url": "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2", "source_kind": "review_site", "publisher": "RTINGS" },
+        { "title": "Logitech G Pro X Superlight 2 Review", "url": "https://www.techpowerup.com/review/logitech-g-pro-x-superlight-2/", "source_kind": "review_site", "publisher": "TechPowerUp" },
+        { "title": "G Pro X Superlight 2 - Rocket Jump Ninja Review", "url": "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight-2/", "source_kind": "creator_review", "publisher": "Rocket Jump Ninja" },
+        { "title": "r/MouseReview - GPX2 长期使用反馈合集", "url": "https://www.reddit.com/r/MouseReview/search/?q=superlight%202", "source_kind": "community_review", "publisher": "Reddit r/MouseReview" },
+        { "title": "Logitech G PRO X SUPERLIGHT 2 - 用户评论", "url": "https://www.amazon.com/dp/B0CFTBC8D7", "source_kind": "ecommerce_review", "publisher": "Amazon" }
+      ],
+      "signals": {
+        "grip_feel": {
+          "summary": "对称低背壳模具，掌握 / 爪握 / 指握都能较好适配；60g 轻量化让长时间握持更轻松。多家测评指出哑光涂层在出汗时偏滑，建议搭配握把贴。",
+          "sentiment": "positive",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 3,
+          "source_kinds": ["review_site", "creator_review", "community_review"],
+          "source_urls": [
+            "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2",
+            "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight-2/"
+          ],
+          "evidence_snippets": [
+            "Symmetrical shape works for palm, claw and fingertip grips.",
+            "Matte coating can get slippery with sweat over long sessions."
+          ]
+        },
+        "hand_size_fit": {
+          "summary": "机身长约 125mm，中等手型综合体验最佳；小手指握可用，超大手掌握会觉得偏小。",
+          "sentiment": "mixed",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 2,
+          "source_kinds": ["review_site", "creator_review"],
+          "source_urls": [
+            "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2",
+            "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight-2/"
+          ],
+          "evidence_snippets": [
+            "Best suited to medium hands; small-hand users can claw/fingertip comfortably."
+          ]
+        },
+        "game_type_fit": {
+          "summary": "FPS / 竞技射击首选（Valorant、CS2、Apex 等）；HERO 2 传感器加 2000Hz 回报率，追踪与甩枪稳定，是职业向的轻量竞技定位。",
+          "sentiment": "positive",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 3,
+          "source_kinds": ["review_site", "creator_review", "community_review"],
+          "source_urls": [
+            "https://www.techpowerup.com/review/logitech-g-pro-x-superlight-2/",
+            "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight-2/"
+          ],
+          "evidence_snippets": [
+            "Outstanding for fast-paced competitive FPS thanks to low weight and HERO 2 sensor."
+          ]
+        },
+        "driver_reputation": {
+          "summary": "驱动为 Logitech G HUB，功能全面但偏重、偶有连接 / 占用的小问题；好在支持板载内存，配置可脱离软件保存。",
+          "sentiment": "mixed",
+          "confidence": "medium",
+          "support_level": "medium",
+          "corroborating_sources": 2,
+          "source_kinds": ["review_site", "community_review"],
+          "source_urls": [
+            "https://www.techpowerup.com/review/logitech-g-pro-x-superlight-2/",
+            "https://www.reddit.com/r/MouseReview/search/?q=superlight%202"
+          ],
+          "evidence_snippets": [
+            "G HUB is feature-rich but heavy; onboard memory lets you save settings without it."
+          ]
+        },
+        "long_term_reliability": {
+          "summary": "采用 LIGHTFORCE 混合光机微动与 HERO 2 传感器，相比初代 GPX 的双击隐患有明显改善；社区长期使用口碑总体良好。",
+          "sentiment": "positive",
+          "confidence": "medium",
+          "support_level": "medium",
+          "corroborating_sources": 2,
+          "source_kinds": ["review_site", "community_review"],
+          "source_urls": [
+            "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2",
+            "https://www.reddit.com/r/MouseReview/search/?q=superlight%202"
+          ],
+          "evidence_snippets": [
+            "Hybrid optical-mechanical switches reduce the double-click risk seen on the original."
+          ]
+        },
+        "community_sentiment": {
+          "summary": "社区公认的顶级电竞旗舰之一，职业选手广泛使用；主要争议集中在价格偏高，以及回报率仅 2000Hz 不及部分高刷对手。",
+          "sentiment": "positive",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 3,
+          "source_kinds": ["community_review", "ecommerce_review", "creator_review"],
+          "source_urls": [
+            "https://www.reddit.com/r/MouseReview/search/?q=superlight%202",
+            "https://www.amazon.com/dp/B0CFTBC8D7"
+          ],
+          "evidence_snippets": [
+            "Widely regarded as a top-tier pro pick; main complaint is the premium price."
+          ]
+        },
+        "build_quality": {
+          "summary": "做工扎实、无明显异响，60g 重量下结构依旧稳固；个别用户反馈哑光涂层使用一段时间后会显出痕迹。",
+          "sentiment": "positive",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 2,
+          "source_kinds": ["review_site", "ecommerce_review"],
+          "source_urls": [
+            "https://www.techpowerup.com/review/logitech-g-pro-x-superlight-2/",
+            "https://www.amazon.com/dp/B0CFTBC8D7"
+          ],
+          "evidence_snippets": [
+            "Solid build with no creaking despite the low weight."
+          ]
+        }
+      },
+      "fit_recommendations": [
+        { "scenario": "FPS / 竞技射击玩家", "summary": "60g 轻量 + HERO 2 + 2000Hz，适合追求稳定追踪与甩枪的竞技玩家。", "confidence": "high", "source_urls": ["https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight-2/"] },
+        { "scenario": "中等手型 · 爪握 / 指握", "summary": "125mm 对称低背壳，中等手爪握 / 指握体验最佳。", "confidence": "high", "source_urls": ["https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2"] },
+        { "scenario": "预算敏感用户", "summary": "性能旗舰但定价偏高（约 $159 / ¥1099+），预算有限可考虑同模具更便宜替代。", "confidence": "medium", "source_urls": ["https://www.reddit.com/r/MouseReview/search/?q=superlight%202"] },
+        { "scenario": "追求 4000 / 8000Hz 高回报率", "summary": "本机仅 2000Hz，极限回报率需求建议对比 Viper V3 / V4 Pro 等高刷机型。", "confidence": "medium", "source_urls": ["https://www.techpowerup.com/review/logitech-g-pro-x-superlight-2/"] }
+      ],
+      "common_complaints": [
+        "价格偏高（约 $159 / ¥1099 起）。",
+        "回报率仅 2000Hz，低于部分对手的 4000 / 8000Hz。",
+        "G HUB 软件偏臃肿、占用偏高。",
+        "机身无 DPI / 配置切换实体键。",
+        "哑光涂层出汗时偏滑、长期使用易显痕迹。"
+      ],
+      "limitations": [
+        "本地评价库为人工整理的代表性结论快照，非实时抓取；具体手感与适配因人而异。"
+      ]
+    },
+    {
+      "match": {
+        "product_id": "logitech-gpx-superlight",
+        "aliases": [
+          "gpx",
+          "g pro x superlight",
+          "pro x superlight",
+          "superlight",
+          "logitech g pro x superlight"
+        ]
+      },
+      "brand": "Logitech",
+      "model": "G Pro X Superlight",
+      "status": "collected",
+      "confidence_level": "high",
+      "note": "本地评价数据库命中：初代 GPX 的博主测评 + 用户评价 + 社区口碑（database 路线）。",
+      "sources": [
+        { "title": "Logitech G Pro X Superlight Review", "url": "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight", "source_kind": "review_site", "publisher": "RTINGS" },
+        { "title": "G Pro X Superlight - Rocket Jump Ninja Review", "url": "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight/", "source_kind": "creator_review", "publisher": "Rocket Jump Ninja" },
+        { "title": "r/MouseReview - GPX 双击 / 长期口碑讨论", "url": "https://www.reddit.com/r/MouseReview/search/?q=g%20pro%20x%20superlight", "source_kind": "community_review", "publisher": "Reddit r/MouseReview" }
+      ],
+      "signals": {
+        "grip_feel": {
+          "summary": "经典对称模具，掌握 / 爪握 / 指握通用；63g 轻量，长期被当作手感标杆之一。涂层同样在出汗时偏滑。",
+          "sentiment": "positive",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 2,
+          "source_kinds": ["review_site", "creator_review"],
+          "source_urls": [
+            "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight",
+            "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight/"
+          ],
+          "evidence_snippets": ["Long regarded as a benchmark symmetrical shape for all grips."]
+        },
+        "game_type_fit": {
+          "summary": "FPS / 竞技通用经典款，HERO 25K 传感器 + 1000Hz，追踪稳定；定位偏向纯净轻量竞技。",
+          "sentiment": "positive",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 2,
+          "source_kinds": ["review_site", "creator_review"],
+          "source_urls": [
+            "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight",
+            "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight/"
+          ],
+          "evidence_snippets": ["Still a great competitive FPS option with a proven HERO sensor."]
+        },
+        "driver_reputation": {
+          "summary": "同为 G HUB，功能全但偏重；板载内存可保存配置。",
+          "sentiment": "mixed",
+          "confidence": "medium",
+          "support_level": "medium",
+          "corroborating_sources": 1,
+          "source_kinds": ["review_site"],
+          "source_urls": ["https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight"],
+          "evidence_snippets": ["G HUB works but is heavier than some rivals' software."]
+        },
+        "long_term_reliability": {
+          "summary": "初代部分批次存在微动双击反馈，社区讨论较多；这也是 GPX2 改用混合微动的主要改进点。",
+          "sentiment": "mixed",
+          "confidence": "medium",
+          "support_level": "medium",
+          "corroborating_sources": 2,
+          "source_kinds": ["community_review", "review_site"],
+          "source_urls": [
+            "https://www.reddit.com/r/MouseReview/search/?q=g%20pro%20x%20superlight",
+            "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight"
+          ],
+          "evidence_snippets": ["Some units developed double-click over time, a known first-gen issue."]
+        },
+        "community_sentiment": {
+          "summary": "长期的电竞标杆款，保有量大、口碑稳；如今多被推荐升级到 GPX2。",
+          "sentiment": "positive",
+          "confidence": "high",
+          "support_level": "strong",
+          "corroborating_sources": 2,
+          "source_kinds": ["community_review", "creator_review"],
+          "source_urls": [
+            "https://www.reddit.com/r/MouseReview/search/?q=g%20pro%20x%20superlight",
+            "https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight/"
+          ],
+          "evidence_snippets": ["A long-standing favorite; many now suggest the Superlight 2 instead."]
+        }
+      },
+      "fit_recommendations": [
+        { "scenario": "FPS / 竞技射击玩家", "summary": "经典轻量竞技款，预算更友好时仍是稳妥选择。", "confidence": "high", "source_urls": ["https://www.rocketjumpninja.com/mouse/logitech-g-pro-x-superlight/"] },
+        { "scenario": "在意微动耐久", "summary": "初代有双击历史，介意者建议直接上 GPX2（混合微动）。", "confidence": "medium", "source_urls": ["https://www.reddit.com/r/MouseReview/search/?q=g%20pro%20x%20superlight"] }
+      ],
+      "common_complaints": [
+        "初代微动存在双击隐患（部分批次）。",
+        "回报率仅 1000Hz。",
+        "G HUB 软件偏重。"
+      ],
+      "limitations": [
+        "本地评价库为人工整理的代表性结论快照，非实时抓取。"
+      ]
+    }
+  ]
+}

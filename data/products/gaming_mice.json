@@ -1,0 +1,2145 @@
+{
+  "category": "gaming_mouse",
+  "category_label": "电竞鼠标",
+  "schema_version": "1.0",
+  "updated_at": "2026-06-18",
+  "description": "热门电竞鼠标硬件参数事实底座，用于产品对比的结构化数据源。规格以各品牌官方产品页为准，部分数值随固件更新可能变化，引用前建议比对官方页面。",
+  "field_units": {
+    "weight_g": "克 (g)，整机净重，不含线缆",
+    "dimensions_mm": "毫米 (mm)，length=长 / width=宽 / height=高",
+    "dpi_max": "传感器可设置的最高 DPI（部分品牌如 ZOWIE 主动限制可选档位）",
+    "polling_rate_hz": "默认/最高回报率 (Hz)，括注外接 dongle 时的上限",
+    "battery_hours": "厂商标称最长续航（小时），通常为 1000Hz 关灯条件下；有线产品为 null",
+    "price_range": "区间 [最低, 最高]，usd=美元首发/街价，cny=人民币参考价",
+    "image_url": "产品图片 URL（可为空；为空时前端显示占位图）",
+    "image_alt": "图片替代文本，用于无障碍与图片加载失败回退",
+    "image_source_url": "图片来源/版权出处 URL（可为空）",
+    "family": "产品系列（如 G Pro X Superlight / Viper / DeathAdder）",
+    "variant_name": "具体变体（Standard / DEX / Superstrike 等）",
+    "variant_type": "official_model / colorway / coating / community_alias / aftermarket / unknown",
+    "mold_id": "模具 ID（同模具不同内部规格仍是独立产品）",
+    "shape_detail": "模具细节，如 symmetrical-low-hump / ergonomic-right-high-hump",
+    "click_system": "点击系统：mechanical / optical / hybrid / haptic",
+    "community_aliases": "玩家圈简称（与官方 aliases 分开，可能不唯一）",
+    "alias_confidence": "玩家圈简称可信度：verified / likely / unverified",
+    "official_name_confidence": "官方名可信度：verified / likely / unknown",
+    "data_status": "数据状态：verified / partial / pending_review",
+    "field_confidence": "字段级来源可信度：official / review_verified / rule_inferred / community_likely / community_unverified / pending"
+  },
+  "enums": {
+    "shape": [
+      "symmetrical",
+      "ergonomic"
+    ],
+    "connection": [
+      "wired",
+      "2.4ghz",
+      "bluetooth"
+    ],
+    "source_type": [
+      "official",
+      "review",
+      "database"
+    ]
+  },
+  "products": [
+    {
+      "id": "logitech-gpx-superlight-2",
+      "family": "G Pro X Superlight",
+      "variant_name": "Standard",
+      "variant_type": "official_model",
+      "mold_id": "gpx-symmetrical",
+      "shape_detail": "symmetrical-low-hump",
+      "click_system": "hybrid",
+      "community_aliases": [
+        "狗屁王2",
+        "狗屁王二代",
+        "GPX二代"
+      ],
+      "alias_confidence": "verified",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Logitech",
+      "model": "G Pro X Superlight 2",
+      "aliases": [
+        "GPX2",
+        "GPX Superlight 2",
+        "Pro X Superlight 2",
+        "Superlight 2",
+        "狗屁王二代"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 60,
+      "dimensions_mm": {
+        "length": 125,
+        "width": 63.5,
+        "height": 40
+      },
+      "shape": "symmetrical",
+      "sensor": "Logitech HERO 2",
+      "dpi_max": 32000,
+      "polling_rate_hz": 2000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 95,
+      "switch_type": "LIGHTFORCE 光学-机械混合微动",
+      "software": "Logitech G HUB",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          159,
+          159
+        ],
+        "cny": [
+          1099,
+          1299
+        ]
+      },
+      "official_url": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-wireless-mouse.html",
+      "image_url": "",
+      "image_alt": "Logitech G Pro X Superlight 2",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Logitech G",
+          "title": "PRO X SUPERLIGHT 2 官方产品页",
+          "url": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-wireless-mouse.html"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Logitech G Pro X Superlight 2 Review",
+          "url": "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight-2"
+        }
+      ],
+      "notes": "职业电竞最主流的对称轻量旗舰，HERO 2 + 2000Hz 回报率。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "logitech-gpx-superlight-2-dex",
+      "family": "G Pro X Superlight",
+      "variant_name": "DEX",
+      "variant_type": "official_model",
+      "mold_id": "gpx-dex-ergonomic",
+      "shape_detail": "ergonomic-right-asymmetrical-medium-hump",
+      "click_system": "hybrid",
+      "community_aliases": [
+        "狗屁王2 DEX",
+        "狗屁王二代 DEX"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Logitech",
+      "model": "G Pro X Superlight 2 DEX",
+      "aliases": [
+        "GPX2 DEX",
+        "Pro X Superlight 2 DEX",
+        "Superlight 2 DEX",
+        "DEX"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2024,
+      "weight_g": 60,
+      "dimensions_mm": {
+        "length": 125.8,
+        "width": 67.7,
+        "height": 43.9
+      },
+      "shape": "ergonomic",
+      "sensor": "Logitech HERO 2",
+      "dpi_max": 44000,
+      "polling_rate_hz": 8000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 95,
+      "switch_type": "LIGHTFORCE 光学-机械混合微动",
+      "software": "Logitech G HUB",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          149,
+          159
+        ],
+        "cny": [
+          1099,
+          1299
+        ]
+      },
+      "official_url": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-dex.html",
+      "image_url": "",
+      "image_alt": "Logitech G Pro X Superlight 2 DEX",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Logitech G",
+          "title": "PRO X SUPERLIGHT 2 DEX 官方产品页",
+          "url": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-dex.html"
+        },
+        {
+          "source_type": "review",
+          "publisher": "GamesRadar+",
+          "title": "Best Logitech gaming mouse 2026 - PRO X SUPERLIGHT 2 DEX",
+          "url": "https://www.gamesradar.com/the-best-logitech-gaming-mouse/"
+        }
+      ],
+      "notes": "DEX 不是普通 GPX2 的颜色版，而是右手非对称人体工学模具版本；核心差异是模具与握持支撑。",
+      "updated_at": "2026-06-18",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "review_verified",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "official",
+        "shape_detail": "official",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "logitech-g-pro-x2-superstrike",
+      "family": "G Pro X",
+      "variant_name": "Superstrike",
+      "variant_type": "official_model",
+      "mold_id": "gpx-superlight-standard-shape",
+      "shape_detail": "symmetrical-low-hump",
+      "click_system": "haptic_adjustable_actuation_hits",
+      "community_aliases": [
+        "GPW4朱雀",
+        "朱雀",
+        "狗屁王4朱雀"
+      ],
+      "alias_confidence": "unverified",
+      "official_name_confidence": "verified",
+      "data_status": "partial",
+      "brand": "Logitech",
+      "model": "G PRO X2 SUPERSTRIKE",
+      "aliases": [
+        "G PRO X2 Superstrike",
+        "Pro X2 Superstrike",
+        "Superstrike",
+        "GPW4"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2026,
+      "weight_g": 61,
+      "dimensions_mm": {
+        "length": 125,
+        "width": 63.5,
+        "height": 40
+      },
+      "shape": "symmetrical",
+      "sensor": "Logitech HERO 2",
+      "dpi_max": 44000,
+      "polling_rate_hz": 8000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 90,
+      "switch_type": "HITS 触觉电感触发系统（可调触发 + Rapid Trigger）",
+      "software": "Logitech G HUB",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          179,
+          180
+        ],
+        "cny": [
+          1299,
+          1699
+        ]
+      },
+      "official_url": "",
+      "image_url": "",
+      "image_alt": "Logitech G PRO X2 SUPERSTRIKE",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "review",
+          "publisher": "PC Gamer",
+          "title": "Logitech G Pro X2 Superstrike review",
+          "url": "https://www.pcgamer.com/hardware/gaming-mice/logitech-g-pro-x2-superstrike-review/"
+        },
+        {
+          "source_type": "review",
+          "publisher": "Tom's Hardware",
+          "title": "Logitech's next gaming mouse will have haptic-based clicks",
+          "url": "https://www.tomshardware.com/peripherals/gaming-mice/logitechs-next-gaming-mouse-will-have-haptic-based-clicks-adjustable-actuation-and-rapid-trigger-new-g-pro-x2-superstrike-will-land-at-usd180"
+        },
+        {
+          "source_type": "review",
+          "publisher": "GamesRadar+",
+          "title": "The Logitech G Pro X 2 Superstrike will change the game for some, but not all",
+          "url": "https://www.gamesradar.com/hardware/gaming-mice/logitech-g-pro-x-2-superstrike-review/"
+        }
+      ],
+      "notes": "与普通 GPX2/GPW 系列的核心差异是 HITS 触觉电感点击系统（可调触发与 Rapid Trigger），不是传感器或模具；“朱雀”作为中文玩家圈叫法暂未官方确认。",
+      "updated_at": "2026-06-18",
+      "field_confidence": {
+        "weight_g": "review_verified",
+        "dimensions_mm": "review_verified",
+        "sensor": "review_verified",
+        "dpi_max": "review_verified",
+        "polling_rate_hz": "review_verified",
+        "battery_hours": "review_verified",
+        "switch_type": "review_verified",
+        "software": "review_verified",
+        "mold_id": "review_verified",
+        "shape_detail": "review_verified",
+        "click_system": "review_verified",
+        "community_aliases": "community_unverified"
+      }
+    },
+    {
+      "id": "logitech-gpx-superlight",
+      "family": "G Pro X Superlight",
+      "variant_name": "Standard (Gen 1)",
+      "variant_type": "official_model",
+      "mold_id": "gpx-symmetrical",
+      "shape_detail": "symmetrical-low-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "狗屁王",
+        "初代狗屁王",
+        "GPW"
+      ],
+      "alias_confidence": "verified",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Logitech",
+      "model": "G Pro X Superlight",
+      "aliases": [
+        "GPX",
+        "Pro X Superlight",
+        "Superlight",
+        "狗屁王"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2020,
+      "weight_g": 63,
+      "dimensions_mm": {
+        "length": 125,
+        "width": 63.5,
+        "height": 40
+      },
+      "shape": "symmetrical",
+      "sensor": "Logitech HERO 25K",
+      "dpi_max": 25600,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 70,
+      "switch_type": "机械微动 (Omron)",
+      "software": "Logitech G HUB",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          129,
+          149
+        ],
+        "cny": [
+          799,
+          999
+        ]
+      },
+      "official_url": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-wireless-mouse.html",
+      "image_url": "",
+      "image_alt": "Logitech G Pro X Superlight",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Logitech G",
+          "title": "PRO X SUPERLIGHT 官方产品页",
+          "url": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-wireless-mouse.html"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Logitech G Pro X Superlight Review",
+          "url": "https://www.rtings.com/mouse/reviews/logitech/g-pro-x-superlight"
+        }
+      ],
+      "notes": "上一代经典对称轻量旗舰，至今仍是性价比与手感基准。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "logitech-g502-x-plus",
+      "family": "G502",
+      "variant_name": "X Plus",
+      "variant_type": "official_model",
+      "mold_id": "g502-ergonomic",
+      "shape_detail": "ergonomic-right-high-hump",
+      "click_system": "hybrid",
+      "community_aliases": [
+        "G502无线",
+        "502大水牛"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Logitech",
+      "model": "G502 X Plus",
+      "aliases": [
+        "G502X Plus",
+        "G502 X+",
+        "G502X+"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2022,
+      "weight_g": 106,
+      "dimensions_mm": {
+        "length": 131.4,
+        "width": 79.2,
+        "height": 41.1
+      },
+      "shape": "ergonomic",
+      "sensor": "Logitech HERO 25K",
+      "dpi_max": 25600,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 130,
+      "switch_type": "LIGHTFORCE 光学-机械混合微动",
+      "software": "Logitech G HUB",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          159,
+          159
+        ],
+        "cny": [
+          999,
+          1199
+        ]
+      },
+      "official_url": "https://www.logitechg.com/en-us/products/gaming-mice/g502-x-plus-wireless-gaming-mouse.html",
+      "image_url": "",
+      "image_alt": "Logitech G502 X Plus",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Logitech G",
+          "title": "G502 X PLUS 官方产品页",
+          "url": "https://www.logitechg.com/en-us/products/gaming-mice/g502-x-plus-wireless-gaming-mouse.html"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Logitech G502 X Plus Review",
+          "url": "https://www.rtings.com/mouse/reviews/logitech/g502-x-plus"
+        }
+      ],
+      "notes": "多按键人体工学旗舰，13 个可编程按键 + RGB，适合 MMO/通用。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "logitech-g303-shroud",
+      "family": "G303",
+      "variant_name": "Shroud Edition",
+      "variant_type": "official_model",
+      "mold_id": "g303-diamond-symmetrical",
+      "shape_detail": "symmetrical-angular-medium-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "小钢炮",
+        "Shroud 联名鼠"
+      ],
+      "alias_confidence": "unverified",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Logitech",
+      "model": "G303 Shroud Edition",
+      "aliases": [
+        "G303 Shroud",
+        "G303 SE",
+        "Shroud Edition"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2021,
+      "weight_g": 75,
+      "dimensions_mm": {
+        "length": 115.8,
+        "width": 65,
+        "height": 37.8
+      },
+      "shape": "symmetrical",
+      "sensor": "Logitech HERO 25K",
+      "dpi_max": 25600,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 145,
+      "switch_type": "机械微动 (Omron)",
+      "software": "Logitech G HUB",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          130
+        ],
+        "cny": [
+          699,
+          899
+        ]
+      },
+      "official_url": "https://www.logitechg.com/en-us/products/gaming-mice/g303-shroud-edition-wireless-mouse.html",
+      "image_url": "",
+      "image_alt": "Logitech G303 Shroud Edition",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Logitech G",
+          "title": "G303 SHROUD EDITION 官方产品页",
+          "url": "https://www.logitechg.com/en-us/products/gaming-mice/g303-shroud-edition-wireless-mouse.html"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Logitech G303 Shroud Edition Review",
+          "url": "https://www.rtings.com/mouse/reviews/logitech/g303-shroud-edition"
+        }
+      ],
+      "notes": "Shroud 联名菱形对称造型，小手指尖握拥趸众多。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_unverified"
+      }
+    },
+    {
+      "id": "razer-viper-v3-pro",
+      "family": "Viper",
+      "variant_name": "V3 Pro",
+      "variant_type": "official_model",
+      "mold_id": "viper-v3-symmetrical",
+      "shape_detail": "symmetrical-low-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "毒蝰V3",
+        "毒蝰三代",
+        "毒蝰",
+        "蝰蛇"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Razer",
+      "model": "Viper V3 Pro",
+      "aliases": [
+        "Viper V3 Pro",
+        "VV3P",
+        "V3 Pro",
+        "毒蝰 V3 Pro"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2024,
+      "weight_g": 54,
+      "dimensions_mm": {
+        "length": 127.1,
+        "width": 63.9,
+        "height": 39.9
+      },
+      "shape": "symmetrical",
+      "sensor": "Razer Focus Pro 35K Gen-2",
+      "dpi_max": 35000,
+      "polling_rate_hz": 8000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 95,
+      "switch_type": "第三代光学微动",
+      "software": "Razer Synapse",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          159,
+          159
+        ],
+        "cny": [
+          1199,
+          1399
+        ]
+      },
+      "official_url": "https://www.razer.com/gaming-mice/razer-viper-v3-pro",
+      "image_url": "",
+      "image_alt": "Razer Viper V3 Pro",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Razer",
+          "title": "Razer Viper V3 Pro 官方产品页",
+          "url": "https://www.razer.com/gaming-mice/razer-viper-v3-pro"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Razer Viper V3 Pro Review",
+          "url": "https://www.rtings.com/mouse/reviews/razer/viper-v3-pro"
+        }
+      ],
+      "notes": "随包附带 8000Hz HyperPolling dongle 的对称超轻旗舰，FPS 标杆。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "razer-viper-v2-pro",
+      "family": "Viper",
+      "variant_name": "V2 Pro",
+      "variant_type": "official_model",
+      "mold_id": "viper-v2-symmetrical",
+      "shape_detail": "symmetrical-low-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "毒蝰V2",
+        "毒蝰二代",
+        "毒蝰",
+        "蝰蛇"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Razer",
+      "model": "Viper V2 Pro",
+      "aliases": [
+        "Viper V2 Pro",
+        "VV2P",
+        "V2 Pro"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2022,
+      "weight_g": 58,
+      "dimensions_mm": {
+        "length": 126.5,
+        "width": 66.2,
+        "height": 37.8
+      },
+      "shape": "symmetrical",
+      "sensor": "Razer Focus Pro 30K",
+      "dpi_max": 30000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 80,
+      "switch_type": "第三代光学微动",
+      "software": "Razer Synapse",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          129,
+          149
+        ],
+        "cny": [
+          899,
+          1099
+        ]
+      },
+      "official_url": "https://www.razer.com/gaming-mice/razer-viper-v2-pro",
+      "image_url": "",
+      "image_alt": "Razer Viper V2 Pro",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Razer",
+          "title": "Razer Viper V2 Pro 官方产品页",
+          "url": "https://www.razer.com/gaming-mice/razer-viper-v2-pro"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Razer Viper V2 Pro Review",
+          "url": "https://www.rtings.com/mouse/reviews/razer/viper-v2-pro"
+        }
+      ],
+      "notes": "V3 Pro 前代，外接 dongle 可达 4000Hz，仍是优秀竞品基线。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "razer-deathadder-v3-pro",
+      "family": "DeathAdder",
+      "variant_name": "V3 Pro",
+      "variant_type": "official_model",
+      "mold_id": "deathadder-v3-ergonomic",
+      "shape_detail": "ergonomic-right-high-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "炼狱蝰蛇V3",
+        "炼狱蝰蛇三代",
+        "蝰蛇"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Razer",
+      "model": "DeathAdder V3 Pro",
+      "aliases": [
+        "DeathAdder V3 Pro",
+        "DA V3 Pro",
+        "DAV3P",
+        "炼狱蝰蛇 V3 Pro"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2022,
+      "weight_g": 63,
+      "dimensions_mm": {
+        "length": 128,
+        "width": 68,
+        "height": 44
+      },
+      "shape": "ergonomic",
+      "sensor": "Razer Focus Pro 30K",
+      "dpi_max": 30000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 90,
+      "switch_type": "第三代光学微动",
+      "software": "Razer Synapse",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          149,
+          149
+        ],
+        "cny": [
+          999,
+          1199
+        ]
+      },
+      "official_url": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro",
+      "image_url": "",
+      "image_alt": "Razer DeathAdder V3 Pro",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Razer",
+          "title": "Razer DeathAdder V3 Pro 官方产品页",
+          "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Razer DeathAdder V3 Pro Review",
+          "url": "https://www.rtings.com/mouse/reviews/razer/deathadder-v3-pro"
+        }
+      ],
+      "notes": "右手人体工学轻量旗舰，外接 dongle 可达 4000Hz。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "razer-basilisk-v3-pro",
+      "family": "Basilisk",
+      "variant_name": "V3 Pro",
+      "variant_type": "official_model",
+      "mold_id": "basilisk-v3-ergonomic",
+      "shape_detail": "ergonomic-right-high-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "巴蛇V3",
+        "巴塞利斯蛇V3"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Razer",
+      "model": "Basilisk V3 Pro",
+      "aliases": [
+        "Basilisk V3 Pro",
+        "巴塞利斯蛇 V3 Pro"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2022,
+      "weight_g": 112,
+      "dimensions_mm": {
+        "length": 130,
+        "width": 75.4,
+        "height": 42.5
+      },
+      "shape": "ergonomic",
+      "sensor": "Razer Focus Pro 30K",
+      "dpi_max": 30000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 90,
+      "switch_type": "第三代光学微动",
+      "software": "Razer Synapse",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          159,
+          159
+        ],
+        "cny": [
+          1099,
+          1299
+        ]
+      },
+      "official_url": "https://www.razer.com/gaming-mice/razer-basilisk-v3-pro",
+      "image_url": "",
+      "image_alt": "Razer Basilisk V3 Pro",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Razer",
+          "title": "Razer Basilisk V3 Pro 官方产品页",
+          "url": "https://www.razer.com/gaming-mice/razer-basilisk-v3-pro"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Razer Basilisk V3 Pro Review",
+          "url": "https://www.rtings.com/mouse/reviews/razer/basilisk-v3-pro"
+        }
+      ],
+      "notes": "多按键 + RGB 重量级人体工学旗舰，含 HyperScroll 智能滚轮。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "razer-cobra-pro",
+      "family": "Cobra",
+      "variant_name": "Pro",
+      "variant_type": "official_model",
+      "mold_id": "cobra-symmetrical",
+      "shape_detail": "symmetrical-medium-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "眼镜蛇Pro"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Razer",
+      "model": "Cobra Pro",
+      "aliases": [
+        "Cobra Pro",
+        "眼镜蛇 Pro"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 77,
+      "dimensions_mm": {
+        "length": 119.6,
+        "width": 62.5,
+        "height": 38.1
+      },
+      "shape": "symmetrical",
+      "sensor": "Razer Focus Pro 30K",
+      "dpi_max": 30000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 100,
+      "switch_type": "第三代光学微动",
+      "software": "Razer Synapse",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          129,
+          129
+        ],
+        "cny": [
+          799,
+          999
+        ]
+      },
+      "official_url": "https://www.razer.com/gaming-mice/razer-cobra-pro",
+      "image_url": "",
+      "image_alt": "Razer Cobra Pro",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Razer",
+          "title": "Razer Cobra Pro 官方产品页",
+          "url": "https://www.razer.com/gaming-mice/razer-cobra-pro"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Razer Cobra Pro Review",
+          "url": "https://www.rtings.com/mouse/reviews/razer/cobra-pro"
+        }
+      ],
+      "notes": "小巧对称 + 全身 RGB，兼顾游戏与日常的中端无线。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "corsair-m75-air",
+      "family": "M75",
+      "variant_name": "Air Wireless",
+      "variant_type": "official_model",
+      "mold_id": "corsair-m75-symmetrical",
+      "shape_detail": "symmetrical-medium-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "M75 Air"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Corsair",
+      "model": "M75 Air Wireless",
+      "aliases": [
+        "M75 Air",
+        "M75 Air Wireless"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 60,
+      "dimensions_mm": {
+        "length": 128,
+        "width": 65.4,
+        "height": 38.7
+      },
+      "shape": "symmetrical",
+      "sensor": "Corsair Marksman (PixArt PAW3395)",
+      "dpi_max": 26000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 100,
+      "switch_type": "光学微动",
+      "software": "Corsair iCUE",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          149,
+          149
+        ],
+        "cny": [
+          899,
+          999
+        ]
+      },
+      "official_url": "https://www.corsair.com/us/en/p/gaming-mouse/m75-air-wireless",
+      "image_url": "",
+      "image_alt": "Corsair M75 Air Wireless",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Corsair",
+          "title": "Corsair M75 AIR Wireless 官方产品页",
+          "url": "https://www.corsair.com/us/en/p/gaming-mouse/m75-air-wireless"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Corsair M75 Air Wireless Review",
+          "url": "https://www.rtings.com/mouse/reviews/corsair/m75-air-wireless"
+        }
+      ],
+      "notes": "海盗船最轻的对称无线，主打 60g + 三模连接。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "corsair-nightsabre-wireless",
+      "family": "Nightsabre",
+      "variant_name": "Wireless",
+      "variant_type": "official_model",
+      "mold_id": "corsair-nightsabre-ergonomic",
+      "shape_detail": "ergonomic-right-medium-hump",
+      "click_system": "optical",
+      "community_aliases": [],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Corsair",
+      "model": "Nightsabre Wireless",
+      "aliases": [
+        "Nightsabre",
+        "Nightsabre Wireless"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 89,
+      "dimensions_mm": {
+        "length": 129.3,
+        "width": 67.3,
+        "height": 42.5
+      },
+      "shape": "ergonomic",
+      "sensor": "Corsair Marksman (PixArt PAW3395)",
+      "dpi_max": 26000,
+      "polling_rate_hz": 2000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 90,
+      "switch_type": "光学微动",
+      "software": "Corsair iCUE",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          119
+        ],
+        "cny": [
+          749,
+          899
+        ]
+      },
+      "official_url": "https://www.corsair.com/us/en/p/gaming-mouse/nightsabre-wireless",
+      "image_url": "",
+      "image_alt": "Corsair Nightsabre Wireless",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Corsair",
+          "title": "Corsair NIGHTSABRE Wireless 官方产品页",
+          "url": "https://www.corsair.com/us/en/p/gaming-mouse/nightsabre-wireless"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Corsair Nightsabre Wireless Review",
+          "url": "https://www.rtings.com/mouse/reviews/corsair/nightsabre-wireless"
+        }
+      ],
+      "notes": "11 键人体工学无线，支持 2000Hz Slipstream 超高回报率。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "steelseries-aerox-3-wireless",
+      "family": "Aerox",
+      "variant_name": "3 Wireless (2022)",
+      "variant_type": "official_model",
+      "mold_id": "aerox-3-symmetrical",
+      "shape_detail": "symmetrical-medium-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "赛睿 Aerox 3"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "SteelSeries",
+      "model": "Aerox 3 Wireless (2022)",
+      "aliases": [
+        "Aerox 3 Wireless",
+        "Aerox 3",
+        "赛睿 Aerox 3"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2022,
+      "weight_g": 68,
+      "dimensions_mm": {
+        "length": 120.6,
+        "width": 67,
+        "height": 37.9
+      },
+      "shape": "symmetrical",
+      "sensor": "TrueMove Air (PixArt PAW3370)",
+      "dpi_max": 18000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 200,
+      "switch_type": "Golden Micro IP54 机械微动",
+      "software": "SteelSeries GG",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          119
+        ],
+        "cny": [
+          599,
+          799
+        ]
+      },
+      "official_url": "https://steelseries.com/gaming-mice/aerox-3-wireless",
+      "image_url": "",
+      "image_alt": "SteelSeries Aerox 3 Wireless (2022)",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "SteelSeries",
+          "title": "SteelSeries Aerox 3 Wireless 官方产品页",
+          "url": "https://steelseries.com/gaming-mice/aerox-3-wireless"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "SteelSeries Aerox 3 Wireless Review",
+          "url": "https://www.rtings.com/mouse/reviews/steelseries/aerox-3-wireless-2022"
+        }
+      ],
+      "notes": "蜂窝镂空 + IP54 防护，三模连接，蓝牙续航可达 200 小时。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "steelseries-prime-wireless",
+      "family": "Prime",
+      "variant_name": "Wireless",
+      "variant_type": "official_model",
+      "mold_id": "prime-ergonomic",
+      "shape_detail": "ergonomic-right-medium-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "赛睿 Prime"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "SteelSeries",
+      "model": "Prime Wireless",
+      "aliases": [
+        "Prime Wireless",
+        "赛睿 Prime Wireless"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2021,
+      "weight_g": 80,
+      "dimensions_mm": {
+        "length": 125.3,
+        "width": 67.9,
+        "height": 42.7
+      },
+      "shape": "ergonomic",
+      "sensor": "TrueMove Air (PixArt PAW3370)",
+      "dpi_max": 18000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 100,
+      "switch_type": "Prestige OM 光学微动",
+      "software": "SteelSeries GG",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          129
+        ],
+        "cny": [
+          699,
+          899
+        ]
+      },
+      "official_url": "https://steelseries.com/gaming-mice/prime-wireless",
+      "image_url": "",
+      "image_alt": "SteelSeries Prime Wireless",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "SteelSeries",
+          "title": "SteelSeries Prime Wireless 官方产品页",
+          "url": "https://steelseries.com/gaming-mice/prime-wireless"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "SteelSeries Prime Wireless Review",
+          "url": "https://www.rtings.com/mouse/reviews/steelseries/prime-wireless"
+        }
+      ],
+      "notes": "为电竞调校的右手对称偏工学造型，Prestige OM 光学微动。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "glorious-model-o-2-wireless",
+      "family": "Model O",
+      "variant_name": "O 2 Wireless",
+      "variant_type": "official_model",
+      "mold_id": "glorious-o-symmetrical",
+      "shape_detail": "symmetrical-medium-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "欧二代",
+        "Model O2"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Glorious",
+      "model": "Model O 2 Wireless",
+      "aliases": [
+        "Model O 2 Wireless",
+        "MO2W",
+        "Model O2"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 68,
+      "dimensions_mm": {
+        "length": 120.3,
+        "width": 63,
+        "height": 37.5
+      },
+      "shape": "symmetrical",
+      "sensor": "BAMF 2.0 (PixArt PAW3395)",
+      "dpi_max": 26000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 110,
+      "switch_type": "Glorious 机械微动",
+      "software": "Glorious Core",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          99
+        ],
+        "cny": [
+          599,
+          699
+        ]
+      },
+      "official_url": "https://www.gloriousgaming.com/products/glorious-model-o-2-wireless",
+      "image_url": "",
+      "image_alt": "Glorious Model O 2 Wireless",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Glorious",
+          "title": "Glorious Model O 2 Wireless 官方产品页",
+          "url": "https://www.gloriousgaming.com/products/glorious-model-o-2-wireless"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Glorious Model O 2 Wireless Review",
+          "url": "https://www.rtings.com/mouse/reviews/glorious/model-o-2-wireless"
+        }
+      ],
+      "notes": "经典蜂窝对称轻量代表，性价比无线。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "glorious-model-d-2-wireless",
+      "family": "Model D",
+      "variant_name": "D 2 Wireless",
+      "variant_type": "official_model",
+      "mold_id": "glorious-d-ergonomic",
+      "shape_detail": "ergonomic-right-medium-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "D二代",
+        "Model D2"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Glorious",
+      "model": "Model D 2 Wireless",
+      "aliases": [
+        "Model D 2 Wireless",
+        "MD2W",
+        "Model D2"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 67,
+      "dimensions_mm": {
+        "length": 122,
+        "width": 67,
+        "height": 42
+      },
+      "shape": "ergonomic",
+      "sensor": "BAMF 2.0 (PixArt PAW3395)",
+      "dpi_max": 26000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 110,
+      "switch_type": "Glorious 机械微动",
+      "software": "Glorious Core",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          99
+        ],
+        "cny": [
+          599,
+          699
+        ]
+      },
+      "official_url": "https://www.gloriousgaming.com/products/model-d-2-wireless",
+      "image_url": "",
+      "image_alt": "Glorious Model D 2 Wireless",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Glorious",
+          "title": "Glorious Model D 2 Wireless 官方产品页",
+          "url": "https://www.gloriousgaming.com/products/model-d-2-wireless"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Glorious Model D 2 Wireless Review",
+          "url": "https://www.rtings.com/mouse/reviews/glorious/model-d-2-wireless"
+        }
+      ],
+      "notes": "Model O 2 的右手人体工学姊妹款，握感更饱满。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "pulsar-x2-v2",
+      "family": "Pulsar X2",
+      "variant_name": "V2",
+      "variant_type": "official_model",
+      "mold_id": "pulsar-x2-symmetrical",
+      "shape_detail": "symmetrical-egg-medium-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "X2二代"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Pulsar",
+      "model": "X2 V2",
+      "aliases": [
+        "X2V2",
+        "X2 V2",
+        "Pulsar X2 V2"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 58,
+      "dimensions_mm": {
+        "length": 120,
+        "width": 63,
+        "height": 38
+      },
+      "shape": "symmetrical",
+      "sensor": "PixArt PAW3395",
+      "dpi_max": 26000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 70,
+      "switch_type": "Kailh GM 8.0 机械微动",
+      "software": "Pulsar Fusion",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          89,
+          99
+        ],
+        "cny": [
+          499,
+          599
+        ]
+      },
+      "official_url": "https://www.pulsar.gg/products/x2-v2",
+      "image_url": "",
+      "image_alt": "Pulsar X2 V2",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Pulsar",
+          "title": "Pulsar X2 V2 官方产品页",
+          "url": "https://www.pulsar.gg/products/x2-v2"
+        },
+        {
+          "source_type": "review",
+          "publisher": "TechPowerUp",
+          "title": "Pulsar X2 V2 Review",
+          "url": "https://www.techpowerup.com/review/pulsar-x2-v2/"
+        }
+      ],
+      "notes": "蛋形对称轻量人气款，可选购 4000Hz dongle。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "zowie-ec2-c",
+      "family": "ZOWIE EC",
+      "variant_name": "EC2-C",
+      "variant_type": "official_model",
+      "mold_id": "zowie-ec-ergonomic",
+      "shape_detail": "ergonomic-right-high-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "卡白",
+        "EC2C"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "ZOWIE",
+      "model": "EC2-C",
+      "aliases": [
+        "EC2-C",
+        "EC2C",
+        "Zowie EC2-C"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2021,
+      "weight_g": 73,
+      "dimensions_mm": {
+        "length": 120,
+        "width": 64,
+        "height": 40
+      },
+      "shape": "ergonomic",
+      "sensor": "PixArt PMW3360",
+      "dpi_max": 3200,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "wired"
+      ],
+      "battery_hours": null,
+      "switch_type": "Huano 机械微动",
+      "software": "无（免驱，机身按键调节）",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          69,
+          69
+        ],
+        "cny": [
+          469,
+          549
+        ]
+      },
+      "official_url": "https://zowie.benq.com/en/product/mouse/ec/ec2-c.html",
+      "image_url": "",
+      "image_alt": "ZOWIE EC2-C",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "BenQ ZOWIE",
+          "title": "ZOWIE EC2-C 官方产品页",
+          "url": "https://zowie.benq.com/en/product/mouse/ec/ec2-c.html"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "ZOWIE EC2-C Review",
+          "url": "https://www.rtings.com/mouse/reviews/zowie/ec2-c"
+        }
+      ],
+      "notes": "CS 系职业最爱的右手工学有线，免驱、DPI 主动限制为 3200 四档。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "pending",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "zowie-u2",
+      "family": "ZOWIE U",
+      "variant_name": "U2",
+      "variant_type": "official_model",
+      "mold_id": "zowie-u-symmetrical",
+      "shape_detail": "symmetrical-medium-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "卓威U2"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "ZOWIE",
+      "model": "U2",
+      "aliases": [
+        "U2",
+        "Zowie U2"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 60,
+      "dimensions_mm": {
+        "length": 120,
+        "width": 63,
+        "height": 39
+      },
+      "shape": "symmetrical",
+      "sensor": "PixArt PAW3395",
+      "dpi_max": 3200,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 70,
+      "switch_type": "光学微动",
+      "software": "无（免驱，机身按键调节）",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          129,
+          149
+        ],
+        "cny": [
+          899,
+          1099
+        ]
+      },
+      "official_url": "https://zowie.benq.com/en/product/mouse/u2.html",
+      "image_url": "",
+      "image_alt": "ZOWIE U2",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "BenQ ZOWIE",
+          "title": "ZOWIE U2 官方产品页",
+          "url": "https://zowie.benq.com/en/product/mouse/u2.html"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "ZOWIE U2 Review",
+          "url": "https://www.rtings.com/mouse/reviews/zowie/u2"
+        }
+      ],
+      "notes": "ZOWIE 对称无线，延续免驱理念，DPI 限制为常用四档。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "endgame-gear-xm2we",
+      "family": "Endgame XM2",
+      "variant_name": "we",
+      "variant_type": "official_model",
+      "mold_id": "endgame-xm2-symmetrical",
+      "shape_detail": "symmetrical-egg-low-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "XM2 we"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Endgame Gear",
+      "model": "XM2we",
+      "aliases": [
+        "XM2we",
+        "XM2 we",
+        "Endgame XM2we"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2022,
+      "weight_g": 63,
+      "dimensions_mm": {
+        "length": 122.46,
+        "width": 66.6,
+        "height": 38.2
+      },
+      "shape": "symmetrical",
+      "sensor": "PixArt PAW3370",
+      "dpi_max": 19000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 110,
+      "switch_type": "Kailh GM 8.0 机械微动",
+      "software": "Endgame Gear Configurator",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          69,
+          79
+        ],
+        "cny": [
+          499,
+          599
+        ]
+      },
+      "official_url": "https://www.endgamegear.com/gaming-mice/xm2we",
+      "image_url": "",
+      "image_alt": "Endgame Gear XM2we",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Endgame Gear",
+          "title": "Endgame Gear XM2we 官方产品页",
+          "url": "https://www.endgamegear.com/gaming-mice/xm2we"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "Endgame Gear XM2we Review",
+          "url": "https://www.rtings.com/mouse/reviews/endgame-gear/xm2we"
+        }
+      ],
+      "notes": "对称右偏蛋形，做工与手感口碑极佳的性价比无线。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "lamzu-atlantis",
+      "family": "Lamzu Atlantis",
+      "variant_name": "Standard",
+      "variant_type": "official_model",
+      "mold_id": "lamzu-atlantis-symmetrical",
+      "shape_detail": "symmetrical-medium-hump",
+      "click_system": "mechanical",
+      "community_aliases": [
+        "亚特兰蒂斯"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "Lamzu",
+      "model": "Atlantis",
+      "aliases": [
+        "Atlantis",
+        "Lamzu Atlantis"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2022,
+      "weight_g": 55,
+      "dimensions_mm": {
+        "length": 123,
+        "width": 66,
+        "height": 38
+      },
+      "shape": "symmetrical",
+      "sensor": "PixArt PAW3395",
+      "dpi_max": 26000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "wired"
+      ],
+      "battery_hours": 70,
+      "switch_type": "Huano 机械微动",
+      "software": "Lamzu 网页配置工具",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          109
+        ],
+        "cny": [
+          599,
+          699
+        ]
+      },
+      "official_url": "https://www.lamzu.com/products/atlantis",
+      "image_url": "",
+      "image_alt": "Lamzu Atlantis",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "Lamzu",
+          "title": "Lamzu Atlantis 官方产品页",
+          "url": "https://www.lamzu.com/products/atlantis"
+        },
+        {
+          "source_type": "review",
+          "publisher": "TechPowerUp",
+          "title": "Lamzu Atlantis Review",
+          "url": "https://www.techpowerup.com/review/lamzu-atlantis/"
+        }
+      ],
+      "notes": "55g 蜂窝对称，发烧友圈口碑款，可选 4000Hz dongle。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "asus-rog-harpe-ace",
+      "family": "ROG Harpe",
+      "variant_name": "Ace Aim Lab Edition",
+      "variant_type": "official_model",
+      "mold_id": "rog-harpe-symmetrical",
+      "shape_detail": "symmetrical-low-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "竖琴",
+        "Harpe Ace"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "ASUS ROG",
+      "model": "ROG Harpe Ace Aim Lab Edition",
+      "aliases": [
+        "Harpe Ace",
+        "ROG Harpe Ace",
+        "Harpe Ace Aim Lab Edition"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 54,
+      "dimensions_mm": {
+        "length": 127.5,
+        "width": 63.6,
+        "height": 39.6
+      },
+      "shape": "symmetrical",
+      "sensor": "ROG AimPoint",
+      "dpi_max": 36000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 90,
+      "switch_type": "ROG 光学微动",
+      "software": "Armoury Crate",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          149,
+          159
+        ],
+        "cny": [
+          999,
+          1199
+        ]
+      },
+      "official_url": "https://rog.asus.com/mice-mouse-pads/mice/wireless/rog-harpe-ace-aim-lab-edition/",
+      "image_url": "",
+      "image_alt": "ASUS ROG ROG Harpe Ace Aim Lab Edition",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "ASUS ROG",
+          "title": "ROG Harpe Ace Aim Lab Edition 官方产品页",
+          "url": "https://rog.asus.com/mice-mouse-pads/mice/wireless/rog-harpe-ace-aim-lab-edition/"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "ASUS ROG Harpe Ace Aim Lab Edition Review",
+          "url": "https://www.rtings.com/mouse/reviews/asus/rog-harpe-ace-aim-lab-edition"
+        }
+      ],
+      "notes": "与 Aim Lab 联合调校的 54g 对称三模旗舰，ROG AimPoint 传感器。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    },
+    {
+      "id": "asus-rog-keris-wireless-aimpoint",
+      "family": "ROG Keris",
+      "variant_name": "Wireless AimPoint",
+      "variant_type": "official_model",
+      "mold_id": "rog-keris-ergonomic",
+      "shape_detail": "ergonomic-right-medium-hump",
+      "click_system": "optical",
+      "community_aliases": [
+        "Keris 小k"
+      ],
+      "alias_confidence": "likely",
+      "official_name_confidence": "verified",
+      "data_status": "verified",
+      "brand": "ASUS ROG",
+      "model": "ROG Keris Wireless AimPoint",
+      "aliases": [
+        "Keris Wireless AimPoint",
+        "ROG Keris AimPoint",
+        "Keris AimPoint"
+      ],
+      "category": "gaming_mouse",
+      "release_year": 2023,
+      "weight_g": 62,
+      "dimensions_mm": {
+        "length": 118,
+        "width": 62,
+        "height": 39
+      },
+      "shape": "ergonomic",
+      "sensor": "ROG AimPoint",
+      "dpi_max": 36000,
+      "polling_rate_hz": 1000,
+      "connection": [
+        "2.4ghz",
+        "bluetooth",
+        "wired"
+      ],
+      "battery_hours": 90,
+      "switch_type": "ROG 光学微动",
+      "software": "Armoury Crate",
+      "onboard_memory": true,
+      "price_range": {
+        "usd": [
+          99,
+          109
+        ],
+        "cny": [
+          699,
+          799
+        ]
+      },
+      "official_url": "https://rog.asus.com/mice-mouse-pads/mice/wireless/rog-keris-wireless-aimpoint/",
+      "image_url": "",
+      "image_alt": "ASUS ROG ROG Keris Wireless AimPoint",
+      "image_source_url": "",
+      "sources": [
+        {
+          "source_type": "official",
+          "publisher": "ASUS ROG",
+          "title": "ROG Keris Wireless AimPoint 官方产品页",
+          "url": "https://rog.asus.com/mice-mouse-pads/mice/wireless/rog-keris-wireless-aimpoint/"
+        },
+        {
+          "source_type": "review",
+          "publisher": "RTINGS",
+          "title": "ASUS ROG Keris Wireless AimPoint Review",
+          "url": "https://www.rtings.com/mouse/reviews/asus/rog-keris-wireless-aimpoint"
+        }
+      ],
+      "notes": "小尺寸右手工学三模，ROG AimPoint 36K 传感器，适合中小手。",
+      "updated_at": "2026-06-17",
+      "field_confidence": {
+        "weight_g": "official",
+        "dimensions_mm": "official",
+        "sensor": "official",
+        "dpi_max": "official",
+        "polling_rate_hz": "official",
+        "battery_hours": "official",
+        "switch_type": "official",
+        "software": "official",
+        "mold_id": "rule_inferred",
+        "shape_detail": "rule_inferred",
+        "click_system": "official",
+        "community_aliases": "community_likely"
+      }
+    }
+  ]
+}
